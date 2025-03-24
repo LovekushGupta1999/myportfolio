@@ -1,5 +1,9 @@
 import React from 'react'
 import './About.css'
+import Card from '../Card/Card.jsx'
+import python from '../../assets/images/python.png'
+import java from '../../assets/images/java.png'
+import dsa from '../../assets/images/dsa.png'
 
 function About() {
     return (
@@ -42,7 +46,9 @@ function About() {
               </div>
             </div>
             <div className="rightabout">
-
+             <Card title="PYTHON STACK DEVELOPER" image={python}/>
+             <Card title="java" image={java}/>
+             <Card title="DSA" image={dsa}/>
             </div>
         </div>
     )

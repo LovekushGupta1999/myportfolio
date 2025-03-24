@@ -11,7 +11,7 @@ function Home() {
                     <div className="line2">Lovekush Gupta</div>
                     <div className="line3">
                         <TypingEffect
-                        strings={["WEB DEVELOPER","SOFTWARE DEVELOPER","EDITOR"]}
+                        strings={["WEB DEVELOPER","SOFTWARE DEVELOPER"]}
                         typeSpeed={100}
                         backSpeed={40}
                         loop={true}

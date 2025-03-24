@@ -1,0 +1,22 @@
+.project{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectcard{
+    width: 100%;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr) ); */
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

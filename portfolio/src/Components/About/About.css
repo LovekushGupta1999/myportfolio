@@ -5,22 +5,24 @@
 }
 
 .leftabout{
-    width: 50%;
+    width: 60%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:40px;
+    gap:30px;
+    padding-left: 10px;
 }
 .circle-line{
+    height: 72vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
 }
 .circle{
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     background-color: #7ad7ea;
     box-shadow: 2px 2px 20px #7ad7ea ;
@@ -35,7 +37,7 @@
 
 .aboutdetails{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     flex-direction: column;
 }
 
@@ -47,13 +49,48 @@
     background: linear-gradient(to right,rgb(199, 68, 188), white);
     background-clip: text; 
     color: transparent;
+    font-size: 25px;
  
 }
 
 .aboutdetails li{
     color: white;
+    /* font-size: 12px; */
 }
 
 .aboutdetails span{
     color: #7ad7ea;
+}
+
+.rightabout{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center ;
+    gap: 20px;
+
+
+
+}
+
+@media (max-width:750px){
+    .about{
+        flex-direction: column;
+    }
+    .leftabout{
+        width: 100%;
+        padding: 10%;
+
+    }
+    .line{
+        height: 150px;
+    }
+   .rightabout{
+    margin-top: 25px;
+    width: 100%;
+    align-items: center;
+   }
+ 
 }
