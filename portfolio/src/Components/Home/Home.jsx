@@ -1,7 +1,8 @@
 import React from 'react'
 import './Home.css'
 import TypingEffect from 'react-typed.ts'
-import man from '../../assets/images/man.png'
+import man from '../../assets/images/lovekush.png'
+
 function Home() {
     return (
         <div className='home'>
@@ -19,10 +20,17 @@ function Home() {
                         /> 
                     </div>
                     <button >HIRE ME </button>
+                    <div className="circlediv">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                   </div>
                 </div>
             </div>
             <div className='righthome'>
+                <div className='imgsection'>
                 <img src={man} alt="" />
+                </div>
             </div>
         </div>
     )

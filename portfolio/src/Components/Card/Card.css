@@ -1,6 +1,6 @@
 .card{
     width: 90%;
-   max-width: 330px;
+    max-width: 300px;
     height: 150px;
     background-color: rgb(20,26,31);
     position: relative;
@@ -12,6 +12,7 @@
     border-radius: 10px;
     transition: all 0.5s;
     cursor: pointer;
+    /* padding: 10px; */
     
 }
 .card:hover{
@@ -43,7 +44,7 @@
 transform: translateY(0%);
 }
 .card h1{
-    background: linear-gradient(to bottom,rgb(111, 121, 180), white);
+    background: linear-gradient(to top,rgb(111, 121, 180), white);
     background-clip: text; 
     color: transparent;
     text-align: center;
