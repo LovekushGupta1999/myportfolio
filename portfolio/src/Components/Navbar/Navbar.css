@@ -39,6 +39,23 @@ nav ul a:hover{
     border-bottom: 2px solid white;
 }
 
+.desktopmenu button{
+    padding: 7px 20px;
+    background-color: rgb(66,180,205);
+    color: black;
+    border: 2px solid rgb(66,180,205);
+    border-radius: 20px;
+    font-family: 19px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.desktopmenu button:hover{
+    background-color: transparent;
+    color: rgb(66,180,205);
+    scale: 1.1;
+}
+
 .hamburger{
     display: none;
 

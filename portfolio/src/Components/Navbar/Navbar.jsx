@@ -12,6 +12,7 @@ function Navbar() {
                <Link to='about' smooth={true} activeClass='active' spy={true} duration={500}> <li>About</li></Link>  
                <Link to='project' smooth={true} activeClass='active' spy={true} duration={500}> <li>Project</li></Link>
                <Link to='contact' smooth={true} activeClass='active' spy={true} duration={500}> <li>Contact</li></Link>
+               <button>DOWNLOAD</button>
             </ul>
             <div className='hamburger' ref={menu} onClick={()=>{
                 mobile.current.classList.toggle("activemobile")
@@ -26,6 +27,7 @@ function Navbar() {
                <Link to='about' smooth={true} activeClass='active' spy={true} duration={500}> <li>About</li></Link>  
                <Link to='project' smooth={true} activeClass='active' spy={true} duration={500}> <li>Project</li></Link>
                <Link to='contact' smooth={true} activeClass='active' spy={true} duration={500}> <li>Contact</li></Link>
+               <Link to='#' smooth={true} activeClass='active' spy={true} duration={500}> <li>DOWNLOAD</li></Link>
             </ul>
         </nav>
         
