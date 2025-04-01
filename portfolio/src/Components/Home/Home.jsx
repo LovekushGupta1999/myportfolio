@@ -1,7 +1,10 @@
 import React from 'react'
 import './Home.css'
 import TypingEffect from 'react-typed.ts'
-import man from '../../assets/images/lovekush.png'
+import man from '../../assets/images/lovepng.png'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Home() {
     return (
@@ -21,9 +24,10 @@ function Home() {
                     </div>
                     <button >HIRE ME </button>
                     <div className="circlediv">
-                    <div className="circle"></div>
-                    <div className="circle"></div>
-                    <div className="circle"></div>
+                    <div className="circle"><LinkedInIcon/></div>
+                    <div className="circle"><InstagramIcon/></div>
+                    <div className="circle"><GitHubIcon/> </div>
+                    
                    </div>
                 </div>
             </div>

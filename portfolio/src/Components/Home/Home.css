@@ -41,10 +41,14 @@
     margin-top: 15px;
 }
 .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: #7ad7ea;
+    /* background-color: #b47aea; */
     box-shadow: 2px 2px 20px #7ad7ea ;
 }
 .righthome{
@@ -68,7 +72,7 @@
 }
 
 .righthome .imgsection img{
-    width: 93%;
+    width: 89%;
     filter: drop-shadow(2px 2px 20px rgb(116,201,225)   );
 }
 
