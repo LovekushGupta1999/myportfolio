@@ -1,6 +1,6 @@
 import React from 'react'
 import './card.css'
-import image from '../../assets/images/dsa.png'
+// import image from '../../assets/images/dsa.png'
 
 function Card({title,image}) {
     return (

@@ -57,6 +57,7 @@ nav ul a:hover{
 }
 
 .hamburger{
+    cursor: pointer;
     display: none;
 
 }

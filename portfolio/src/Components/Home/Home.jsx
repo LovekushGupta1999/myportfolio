@@ -5,8 +5,38 @@ import man from '../../assets/images/lovepng.png'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import {useGSAP} from '@gsap/react'
+import gsap from 'gsap'
 
 function Home() {
+     useGSAP(()=>{
+            let tl1= gsap.timeline()
+            tl1.from(".line1",{
+                y:80,
+                duration:1,
+                opacity:0
+            })
+            tl1.from(".line2",{
+                y:80,
+                duration:1,
+                opacity:0
+            })
+            tl1.from(".line3",{
+                y:80,
+                duration:1,
+                opacity:0
+            })
+            tl1.from(".circle_div",{
+                x:-200,
+                duration:1,
+                opacity:0
+            })
+            gsap.from(".righthome .imgsection",{
+                x:200,
+                duration:1,
+                opacity:0
+            })
+        })
     return (
         <div className='home'>
             <div className='lefthome'>
@@ -23,10 +53,10 @@ function Home() {
                         /> 
                     </div>
                     <button >HIRE ME </button>
-                    <div className="circlediv">
-                    <div className="circle"><LinkedInIcon/></div>
-                    <div className="circle"><InstagramIcon/></div>
-                    <div className="circle"><GitHubIcon/> </div>
+                    <div className="circle_div">
+                    <div className="circleO"><GitHubIcon/> </div>
+                    <div className="circleO"><LinkedInIcon/></div>
+                    <div className="circleO"><InstagramIcon/></div>
                     
                    </div>
                 </div>
